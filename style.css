@@ -1,0 +1,611 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.SEC1{
+background-image: url(./images/light-bulb-3104355_1280.jpg);
+width:100%;
+height: 600px;
+background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style: none;
+    margin-left: 60px;
+
+}
+a{
+font-size: 20px;
+color: azure;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 200;
+text-transform: uppercase;
+
+}
+a:hover{
+    color: brown;
+    transition: .5s ease;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 130px;
+}
+.file{
+    color: aliceblue;
+    font-family: emoji;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    
+}
+.head1{
+    font-size: 44px;
+    font-weight: 100;
+    padding: 10px;
+   text-transform: uppercase;
+   color: azure;
+
+}
+.span1{
+    font-weight: bold;
+    
+}
+.span2{
+    
+    border-bottom: 3px solid white;
+
+}
+.head2{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 16px;
+    text-align: left;
+
+}
+.sec2{
+    padding: 50px;
+    
+}
+.head3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.file2{
+    text-align: center;
+    padding-top: 18px;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+#icn1{
+margin-left: 100px;
+font-size: 60px;
+padding: 20px;
+border: solid 1px black;
+border-bottom: none;
+}
+.head5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-left: 105px;
+}
+.head6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-left: 100px;
+}
+.sec3{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.sec3 .mawad{
+    padding: 90px;
+}
+.sec3 .mawad h1{
+    text-transform: uppercase;
+    font-size: 30px;
+   padding: 15px;
+}
+.sec3 .mawad p{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.sec3 .mawad button{
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 18 px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(245, 245, 87);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+    border: 1px solid;
+}
+.sec3 .mawad button:hover{
+    background-color: brown;
+}
+.sec4{
+  
+    background-image: url(./images/light-bulb-3104355_1280.jpg);
+     height: 50vh;
+     background-size: 100% 100%;
+    /* padding: 70px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sec4 .con{
+    
+
+}
+
+.sec4 .con h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+    padding: 10px 0;
+}
+.sec4 .con span{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 600;
+
+}
+.sec4 .con p{
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 5px;
+}
+.sec4 .con button{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.icn-box3{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    
+
+}
+.icn-box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icn-box4 span{
+   font-size: 35px;
+   padding:  0 0 15px 0;
+   border-bottom: 2px solid white;
+}
+.icn-box4 h5{
+    font-size: 20px;
+}
+.sec5{
+    background: whitesmoke;
+    padding: 70px;
+}
+.pricing-box-p{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+
+}
+.sec5 h2 , p{
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+.sec5 h2{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.price-box{
+    padding: 40px 15px;
+    width: 200px;
+    background: #ddd3d3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-box h4{
+    font-size: 30px;
+    color: bisque;
+}
+.price-box span{
+    font-size: 57px;
+    color: bisque;
+    padding-top: 10px;
+    margin-left: 19px;
+    
+}
+.price-box p{
+    font-size: 17px;
+    color: bisque;
+    padding-top: 17px;
+
+}
+.price-box span sup{
+    font-size: 27px;
+    color: bisque;
+    padding-top: 10px;
+  
+
+}
+.price-box button{
+    font-size: 17px;
+    color: aliceblue;
+    background-color: rgb(214, 214, 188);
+    padding: 7px 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.bx{
+    background-color: rgb(22, 21, 21);
+}
+.sec5 h6{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.sec6{
+    padding: 80px;
+}
+.sec6 h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.sec6 .par1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0 0 20px;
+}
+.gallery1{
+    display: flex;
+    justify-content: center;
+}
+.gallery1 li{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: purple;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    padding-bottom: 15px;
+   
+} 
+.img1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0 0 0;
+}
+.sec7 h1{
+    text-align: center;
+    
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+   padding-top: 50px;
+   padding-bottom: -50px;
+}
+.sec7-div{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.sec7-div p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    
+}
+.sec7-div img{
+
+   border-radius: 50%;
+}
+.sec7{
+    background-image: url(./images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-size: cover;
+}
+.sec7-div i{
+    font-size: 30px;
+}
+.sec8{
+    background-color: whitesmoke;
+    padding: 100px;
+}
+.sec8 h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.img-div2{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    margin-top: 50px;
+}
+
+.sec9{
+    background-image: url(./images/istockphoto-1441581800-170667a.webp);
+    width: 1400px;
+    height: 700px;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.sec9 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 30 px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sec9 , .lora5{
+    color: #fff;
+}
+.chefs h3 , p{
+ text-align: center;
+ padding-top: 5px;
+
+}
+.chefs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 0 0 20px 0;
+    padding-top: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
+.chefs h3 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.sec9 i{
+    margin-left: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.chefs-p{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.sec10 h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff;
+   
+}
+.icn{
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+.icn i{
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+.frm{
+    display: flex;
+    justify-content: center;
+}
+.sec10 form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    row-gap: 20px;
+    padding-bottom: 30px;
+}
+input{
+    padding: 8px 0 8px 8px;
+    width: auto;
+    border: 1px solid;
+    width: 47%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.062);
+    
+}
+
+.sec10{
+    background-image: url(./images/istockphoto-1441581800-170667a.webp);
+    padding-top: 10px;
+}
+textarea{
+    height: 200px;
+    padding: 17px 0 0 px;
+    border: 1px solid white;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.021);
+    text-transform: uppercase;
+}
+::placeholder{
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn1{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.027);
+    width: auto;
+    text-transform: uppercase;
+    border: 1px solid white;
+    cursor: pointer;
+}
+textarea::placeholder{
+padding-left: 7px;
+padding-top: 5px;
+}
+.sec11{
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec11 .text{
+ 
+    text-align: start;
+}
+.text p{
+    text-align: start;
+    padding-top: 10px;
+}
+.text h1{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-left: 20px;
+  padding-bottom: 60px;
+   
+}
+.text button{
+    margin-left: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.tex .a{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+.tex h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.tex .b{
+    justify-content: start;
+   text-align: start;
+   
+}
+.tex .b  , h3 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    
+}
+.sec11 h3 , p{
+    padding-top: 15px;
+}
+
+.tex .con{
+padding-bottom: 50px;
+}
+.sec11 h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.sec11 .c{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+width: 350px;
+margin-top: 60px;
+height: 300px;
+}
+footer{
+    padding: 30px 80px;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer h2{
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+    
+
+}
+footer i{
+    color: #fff;
+    margin-left: 25px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.i-cn{
+    font-size: 20px;
+}
+footer i:hover{
+    color: rgb(235, 112, 68);
+}
+.sec11 text{
+    display: flex;
+}
+
+
+
+
+
