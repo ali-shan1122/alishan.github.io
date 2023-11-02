@@ -360,7 +360,7 @@ border-bottom: none;
     font-size: 30px;
 }
 .sec8{
-    background-color: whitesmoke;
+    background-color: rgb(206, 188, 188);
     padding: 100px;
 }
 .sec8 h2{
@@ -376,7 +376,7 @@ border-bottom: none;
 
 .sec9{
     background-image: url(./images/istockphoto-1441581800-170667a.webp);
-    width: 1400px;
+    width: 1350px;
     height: 700px;
     background-size: cover;
     padding-top: 40px;
@@ -604,8 +604,86 @@ footer i:hover{
 .sec11 text{
     display: flex;
 }
+.sec12{
+    background: rgb(170, 155, 155);
+}
+.sec12 h1{
+        font-size: 100px;
+        text-align: center;
+        padding: 70px;
+        text-transform: uppercase;
+        color: aliceblue;
+        background-color: black;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/light-bulb-3104355_1280.jpg );
+        letter-spacing: 4px;
+       
+}
+.sec12 h1{
+    animation: ani 2s linear infinite;
+}
+@keyframes ani{
+    to{
+       transform: scale(1);
+    }
+    50%{
+       transform: scale(1.5);
+    }
+    from{
+    transform: scale(.5);
+    }
 
-
-
-
-
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 200px;
+        background-color: rgb(37, 35, 35);
+        color: aliceblue;
+    }
+    .parent h2{
+        text-transform: uppercase;
+        margin-left: 25px;
+        font-size: 45px;
+        animation: up 2s linear infinite;
+        transition: ease;
+        letter-spacing: 5px;
+    }
+    @keyframes up{
+        0% , 100%{
+            transform:scale(1) ;
+        }
+        50%{
+            transform: scale(1.5 ) translate(15px);
+            
+            text-shadow: 4px 4px 20px white;
+    
+    
+        }
+    }
+    .parent :nth-child(1){
+        animation-delay: .2s;
+    }
+    .parent :nth-child(2){
+        animation-delay: .3s;
+    }
+    .parent :nth-child(3){
+        animation-delay: .4s;
+    }
+    .parent :nth-child(4){
+        animation-delay: .5s;
+    }
+    .parent :nth-child(5){
+        animation-delay: .6s;
+    }
+    .parent :nth-child(6){
+        animation-delay: .7s;
+    }
+    .parent :nth-child(7){
+        animation-delay: .8s;
+    }
