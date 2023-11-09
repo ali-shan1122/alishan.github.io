@@ -606,6 +606,8 @@ footer i:hover{
 }
 .sec12{
     background: rgb(170, 155, 155);
+    width: 100%;
+    height: auto;
 }
 .sec12 h1{
         font-size: 100px;
@@ -694,6 +696,9 @@ footer i:hover{
         justify-content: center;
         align-items: center;
         display: flex;
+        width: auto;
+        background-size: cover;
+        height: auto;
     }
 
  .pulls{
@@ -742,7 +747,7 @@ footer i:hover{
     align-items: center;
     background: linear-gradient(rgb(182, 123, 14),rgb(189, 189, 29),pink);
  }
- i{
+ .sec13 i{
     animation: bel 2s linear infinite;
  }
  
